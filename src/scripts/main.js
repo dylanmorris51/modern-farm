@@ -30,8 +30,8 @@ console.log("Sunflower Obj:", sunflower)
 const wheat = createWheat()
 console.log("Wheat Obj:", wheat)
 
-let newPlant = addPlant()
-console.log("newPlant Check:", newPlant)
 
+addPlant(potato)
+addPlant(corn)
 let cropField = usePlants()
 console.log("Crop Field:", cropField)
